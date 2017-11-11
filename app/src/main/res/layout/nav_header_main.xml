@@ -15,11 +15,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
         android:contentDescription="@string/profile_image"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:layout_constraintBottom_toTopOf="@+id/loginBtnNavHeader"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/loginBtnNavHeader"
+        app:layout_constraintStart_toStartOf="@+id/loginBtnNavHeader"
         app:srcCompat="@drawable/profiledefault" />
 
     <TextView
@@ -46,13 +46,13 @@
 
     <Button
         android:id="@+id/loginBtnNavHeader"
-        android:layout_width="wrap_content"
+        android:layout_width="62dp"
         android:layout_height="32dp"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
         android:background="?attr/selectableItemBackground"
-        android:text="@string/login"
         android:onClick="loginBtnNavClicked"
+        android:text="@string/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -63,9 +63,9 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:background="?attr/selectableItemBackground"
+        android:onClick="addChannelClicked"
         android:padding="5dp"
         android:scaleType="fitXY"
-        android:onClick="addChannelClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/addchannelbutton" />
