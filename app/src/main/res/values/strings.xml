@@ -10,4 +10,8 @@
     <string name="enter_message_hint">message:</string>
     <string name="please_log_in">Please Log In</string>
     <string name="send_message_image">send message image</string>
+    <string name="password">password</string>
+    <string name="email_text">email</string>
+    <string name="no_account">Don\'t Have an Account?</string>
+    <string name="sign_up">Sign Up Here</string>
 </resources>

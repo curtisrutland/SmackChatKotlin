@@ -1,5 +1,6 @@
 package com.curtisrutland.smack.controller
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
@@ -29,7 +30,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loginBtnNavClicked(view: View) {
-
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
     }
 
     fun addChannelClicked(view: View) {
